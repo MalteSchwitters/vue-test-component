@@ -5,14 +5,15 @@
   "author": "Malte Schwitters",
   "private": false,
   "license": "MIT",
-  "main": "./dist/maltesvueexample.common.js",
+  "main": "./dist/maltes-vue-example.common.js",
+  "module": "dist/maltes-vue-example.esm.js",
   "engines": {
     "node": ">= 10.16.0"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib --name maltesvueexample ./src/app.vue",
+    "build-bundle": "vue-cli-service build --target lib --name maltes-vue-example ./src/app.vue",
     "lint": "vue-cli-service lint"
   },
   "homepage": "https://github.com/MalteSchwitters/vue-test-component#readme",
