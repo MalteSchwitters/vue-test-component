@@ -1,0 +1,69 @@
+{
+  "name": "@mschwitters/example-component",
+  "version": "0.0.1",
+  "description": "Test component to test npm dependencies",
+  "author": "Malte Schwitters",
+  "private": false,
+  "license": "MIT",
+  "main": "./dist/maltesvueexample.common.js",
+  "engines": {
+    "node": ">= 10.16.0"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name maltesvueexample ./src/app.vue",
+    "lint": "vue-cli-service lint"
+  },
+  "homepage": "https://github.com/MalteSchwitters/vue-test-component#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MalteSchwitters/vue-test-component"
+  },
+  "keywords": [
+    "vue",
+    "vuejs"
+  ],
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
