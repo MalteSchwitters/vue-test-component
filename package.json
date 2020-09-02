@@ -6,7 +6,6 @@
   "private": false,
   "license": "MIT",
   "main": "./dist/maltes-vue-example.common.js",
-  "module": "dist/maltes-vue-example.esm.js",
   "engines": {
     "node": ">= 10.16.0"
   },
@@ -66,5 +65,8 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/MalteSchwitters/vue-test-component/issues"
+  }
 }
